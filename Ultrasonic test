@@ -6,20 +6,12 @@
 long duration;  
 int distance; 
 
- 
- 
-
 void setup() { 
   pinMode(trigPin, OUTPUT);  
-
   pinMode(echoPin, INPUT);  
-
   Serial.begin(9600);  
-
   Serial.println("Ultrasonic Sensor HC-SR04 Test");  
-
   Serial.println("with Arduino UNO R3"); 
-
 } 
 
 void loop() { 
